@@ -22,13 +22,6 @@ end
 
 %% set parameters
 params.h = 10; % hidden dimension
-
-% parameter for stage 1
-params.wy = 1;
-params.wa = 1;
-params.wb = 1;
-
-% parameter for stage 2
 params.max_iter = 5; % max number of iterations
 params.alph = 0.01;
 params.beta = 1;
